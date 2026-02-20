@@ -1,0 +1,32 @@
+{
+  "name": "ESPBufferManager",
+  "version": "0.1.0",
+  "description": "Shared memory allocation helper for ESPToolKit libraries",
+  "keywords": [
+    "esp32",
+    "arduino",
+    "psram",
+    "allocator",
+    "buffer"
+  ],
+  "homepage": "https://github.com/ESPToolKit/esp-buffer-manager",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ESPToolKit/esp-buffer-manager.git"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zekageri"
+    }
+  ],
+  "frameworks": ["arduino", "espidf"],
+  "platforms": ["espressif32"],
+  "dependencies": [],
+  "headers": ["ESPBufferManager.h"],
+  "build": {
+    "flags": [
+      "-std=gnu++17"
+    ]
+  }
+}
