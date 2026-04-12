@@ -9,6 +9,9 @@ All notable changes to this project will be documented in this file.
 - Added `isPSRAMAvailable()` and `shouldUsePSRAM()` runtime helpers.
 - Added Arduino example (`examples/basic_usage`) demonstrating safe fallback behavior.
 
+### Fixed
+- CI now pins PIOArduino Core to `v6.1.19` and installs the ESP32 platform via `pio pkg install`, restoring PlatformIO compatibility with the current `platform-espressif32` package.
+
 ## [0.1.0] - 2026-02-20
 
 ### Added
